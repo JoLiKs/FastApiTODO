@@ -5,7 +5,13 @@ Accept: application/json
 
 ###
 
-GET http://127.0.0.1:8000/hello/User
+POST http://127.0.0.1:8000/todo/create
 Accept: application/json
+
+{
+"content": "test",
+"is_done": false,
+"created_at": "2024-09-15T16:00:58",
+"updated_at": "2024-09-15T16:00:58"}
 
 ###
